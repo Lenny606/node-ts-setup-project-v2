@@ -7,6 +7,9 @@ export interface User {
 export interface Health extends BaseResponse{
 
 }
+export interface ErrorResponse extends BaseResponse{
+
+}
 
 interface BaseResponse {
     success: boolean;
