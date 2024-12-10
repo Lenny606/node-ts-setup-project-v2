@@ -1,4 +1,4 @@
-import {getUsers} from "../../handlers/users";
+import {getUsers} from "../../controllers/users";
 import {mockRequest, mockResponse} from "../../__mocks__";
 
 describe('get Users', () => {

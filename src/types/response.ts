@@ -3,3 +3,13 @@ export interface User {
     email: string;
     username: string;
 }
+
+export interface Health extends BaseResponse{
+
+}
+
+interface BaseResponse {
+    success: boolean;
+    status: number;
+    message: string;
+}
