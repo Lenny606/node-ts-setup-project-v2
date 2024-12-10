@@ -5,11 +5,13 @@ npm i -D nodemon
 npm i -D ts-node
 npm i express-session
 npm i passport
+npm i cors
 
 ### types definitions
 npm i -D @types/express
 npm i -D @types/express-session
 npm i -D @types/passport
+npm i -D @types/cors
 
 
 ### cmds
